@@ -1,4 +1,4 @@
-require("user.options")
+require "user.options"
 require "user.keymaps"
 require "user.plugins"
 require "user.colorscheme"
@@ -19,19 +19,3 @@ require "user.indentline"
 require "user.alpha"
 require "user.whichkey"
 require "user.autocommands"
-require("user.neoscroll")
-require("user.modicator")
---require("user.barbar")
--- Define the mapping for LSP "go to definition"
-
-
--- Define the mapping for LSP "go to definition"
-
-
---enable formatting on save for all files
-vim.cmd([[autocmd BufWritePre * :lua vim.lsp.buf.format()]])
-
-
-
-
-
